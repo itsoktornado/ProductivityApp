@@ -1,4 +1,4 @@
-package com.example.productivityapp
+package com.example.productivityapp.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
