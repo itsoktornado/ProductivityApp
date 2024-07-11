@@ -6,7 +6,7 @@ plugins {
 
 buildscript {
     extra.apply{
-        set("compose_version", "1.0.2")
+        set("compose_version", "1.5.2")
     }
     repositories {
         google()
