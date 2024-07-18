@@ -96,7 +96,7 @@ fun AddEditNoteScreen(
         },
 
         snackbarHost = { SnackbarHost(snackbarHostState) }
-    ) {
+    ) { padding ->
         Column(
             modifier = Modifier
                 .fillMaxSize()
