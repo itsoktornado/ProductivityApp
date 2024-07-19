@@ -99,6 +99,7 @@ fun NoteItem(
             onClick = onDeleteClick,
             modifier = Modifier.align(Alignment.BottomEnd)
         ) {
+            // Delete button
             Icon(
                 imageVector = Icons.Default.Delete,
                 contentDescription = "Delete Note",

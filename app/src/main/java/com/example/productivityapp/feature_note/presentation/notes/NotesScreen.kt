@@ -51,6 +51,7 @@ fun NotesScreen(
     val scope = rememberCoroutineScope()
 
     Scaffold(
+        // Add button
         floatingActionButton = {
             FloatingActionButton(
                 onClick = {
@@ -82,7 +83,8 @@ fun NotesScreen(
                     text = "Your Note",
                     style = MaterialTheme.typography.headlineMedium
                 )
-                
+
+                // Filter toggle button
                 IconButton(
                     onClick = {
                         viewModel.onEvent(NotesEvent.ToggleOrderSection)
